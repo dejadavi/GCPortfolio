@@ -1,0 +1,33 @@
+h1{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+text-decoration: underline;
+  
+}
+
+p{
+
+    padding-left: 20px;
+}
+.navbar {
+
+    overflow: hidden;
+    background-color: rgba(244, 164, 66,.9);
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+
+}
+img{
+width: 200px;
+height: 200px;
+float: left;
+pad: 70px;
+
+}
+
