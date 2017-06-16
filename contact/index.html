@@ -3,6 +3,7 @@
     <head>
       <title>Contact Me</title>  
       <link rel="stylesheet" href="index.css">
+      <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
 
@@ -14,7 +15,7 @@
 
         <h1>Contact Me!</h1>
         <p>Please drop me a note!</p>
-        <form action="example.php" method="post">
+        <form >
             <div>
                 <label for="name" class="title">Name:</label>
                 <input type="text" id="name" name="name"/>
@@ -27,12 +28,12 @@
                 <label for="phone" class="title">Phone:</label>
                 <input type="phone" id="phone" name="phone"/> 
             </div>
-                 <div>
-                <label for="comment" class="title">Comment:</label>
-                <input type="text" id="comment" name="phone"/> 
+            <div id="comment_section">
+                <button id="com_button" onclick="return enterComment('comment_value', clear_comment);">Send a comment!</button>
             </div>
              <div class="submit">
-                <input type="submit" id="submit" value="Submit"/> 
+                <input type="submit" id="submit" value="Submit" 
+                onclick="return display_text('comment_value')"/> 
             </div>
 
         </form>

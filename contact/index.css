@@ -1,7 +1,9 @@
 h1{
 text-align: center;
 font-family: 'Roboto', sans-serif;
-text-decoration: underline;
+font-size:32px;
+font-weight: bold;
+ 
   
 }
 
@@ -12,11 +14,26 @@ text-decoration: underline;
     background-color: rgba(244, 164, 66,.9);
 }
 
+p{
+
+    padding-left: 20px;
+    font-size: medium;
+    letter-spacing: 1px;
+    font: Arial, sans-serif;
+}
+
 .navbar a{
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
+   text-decoration: none;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+
 
 
 }
@@ -28,12 +45,18 @@ border-color: grey;
 border-radius: 25px;
 width: 400px;
 padding: 10px;
+font-size: medium;
+font: Arial, sans-serif;
 
 
 }
 
 .submit{
     text-align: right;
+    font-size: medium;
+    font: Arial, sans-serif;
+    font-weight: bold;
+
 }
 
 input{
