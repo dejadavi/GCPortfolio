@@ -1,13 +1,17 @@
 h1{
 text-align: center;
 font-family: 'Roboto', sans-serif;
-text-decoration: underline;
+font-size:32px;
+ 
+
   
 }
 
 p{
 
     padding-left: 20px;
+    font-size: medium;
+    font: Arial, sans-serif;
 }
 .navbar {
 
@@ -20,6 +24,12 @@ p{
     display: block;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
 
 
 }
@@ -28,6 +38,13 @@ width: 200px;
 height: 200px;
 float: left;
 pad: 70px;
+
+}
+
+.blurb_box> {
+height:80%;
+width:50px;
+padding: 20px;
 
 }
 
